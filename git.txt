@@ -1,0 +1,11 @@
+git init
+ls -al
+git add .
+git commit -m "First commit"
+git status
+git log
+git branch
+
+git remote add origin "git@github"
+git pull --rebase origin master
+git push origin master
